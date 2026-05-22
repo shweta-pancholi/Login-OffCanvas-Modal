@@ -52,6 +52,15 @@ form {
     right: 0;
 }
 
+.form-cut {
+  font-size: 25px;
+  position: absolute;
+  right: 0;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+
 @media(max-width:768px){
     .login-form{
         width: 100%;
