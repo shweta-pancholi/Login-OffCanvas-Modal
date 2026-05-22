@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: cadetblue;
+  position: relative;
+}
+
+.login-form {
+  width: 30%;
+  background: #343030;
+  height: 100vh;
+  padding: 30px;
+  color: white;
+  position: fixed;
+  right: -400px;
+  transition: 1.6s ease-in-out;
+  top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkbox, button, form{
+    margin-top: 30px;
+}
+
+.btn button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.btn1 button{
+    margin-left: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+.active{
+    top: 0;
+    right: 0;
+}
